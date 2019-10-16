@@ -1,0 +1,7 @@
+[package]
+name = "ling"
+version = "0.1.0"
+authors = ["chaosannals <chaosannals@outlook.com>"]
+edition = "2018"
+
+[dependencies]
