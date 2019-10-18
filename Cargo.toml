@@ -5,3 +5,11 @@ authors = ["chaosannals <chaosannals@outlook.com>"]
 edition = "2018"
 
 [dependencies]
+
+[[bin]]
+name = "ling"
+path = "source/main.rs"
+
+[[example]]
+name = "ling-example"
+path = "example/main.rs"

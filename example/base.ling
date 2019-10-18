@@ -1,0 +1,14 @@
+#!/bin/ling
+
+write -i "test" -o "test.txt";
+
+# 定义函数
+define test_func @a1 @a2 @a3 {
+    if (@a3) {
+        return @a1 + @a2 + @a3;
+    }
+    return @a1 + @a2;
+}
+
+test_func -a3 123 -a2 234;
+
