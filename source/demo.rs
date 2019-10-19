@@ -1,7 +1,6 @@
-#[path="../source/grammar/lexer.rs"]
-mod lexer;
+mod grammar;
 
-use lexer::Lexer;
+use grammar::lexer::Lexer;
 
 fn main() {
     let path = String::from("example/base.ling");

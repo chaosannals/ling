@@ -11,5 +11,5 @@ name = "ling"
 path = "source/main.rs"
 
 [[example]]
-name = "ling-example"
-path = "example/main.rs"
+name = "ling-demo"
+path = "source/demo.rs"
